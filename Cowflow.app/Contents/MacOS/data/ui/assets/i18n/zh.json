@@ -1,15 +1,30 @@
 {
     "app": {
-        "name": "Cowflow"
+        "name": "牛量"
     },
     "message": {
         "tip": "提示",
         "credit": "积分",
         "networkError": "网络错误，请稍等一会儿再尝试",
         "templateError": "模板调用错误,多次出现,请去网站下载最新版本",
+        "templatePageError": "模板分页调用错误,多次出现,请去网站下载最新版本",
         "saveDone": "保存成功！",
         "remove": "确认删除?",
-        "emptyRecord": "此处还没有任何纪录~"
+        "emptyRecord": "此处还没有任何纪录~",
+        "noCode":"暂无验证码需要验证",
+        "prevIntro":"上一页",
+        "nextIntro":"下一页",
+        "skipIntro":"跳过",
+        "doneIntro":"完成"
+    },
+    "tips": {
+        "mainFirst":"欢迎您使用牛量,接下来我会引导你如何使用此软件.",
+        "mainIndex":"运行状态将会告诉你软件当前运行的状态,以及你的常用统计",
+        "mainTask":"使用你的积分发布互刷任务.",
+        "mainAccount":"添加你的小号让软件帮你自动赚取积分.",
+        "mainTemplate":"定制你自己的评论内容.",
+        "mainUser":"注册用户,切换用户,新手尽快注册用户哦~",
+        "codeBell":"小号登录的时候需要点击此处来输入验证码."
     },
     "main": {
         "welcome": "欢迎,",
@@ -49,7 +64,9 @@
         "search":"查询",
         "prev":"上一页",
         "next":"下一页",
-        "default":"默认"
+        "default":"默认",
+        "all":"所有",
+        "enable":"启用"
     },
     "nav": {
         "home": "首页",
@@ -57,6 +74,16 @@
         "page2": "Page Two"
     },
     "index": {
+        "group0" : "普通",
+        "group1" : "VIP",
+        "group3" : "特殊用户",
+        "loading" : "...",
+        "currentCredit" : "当前积分",
+        "userGroup" : "用户类别",
+        "userLevel" : "用户级别",
+        "serverTimes" : "服务器响应",
+        "successTimes" : "任务成功次数",
+        "failedTimes" : "任务失败次数",
         "runStatus": "运行状态",
         "pointFormat": "<b>当前小时:{point.y:.1f}</b>"
     },
@@ -128,7 +155,14 @@
         "accountPassword": "密码",
         "platform": "平台",
         "credit": "今日积分",
-        "status": "状态"
+        "status": "状态",
+        "accountNone" : "无状态",
+        "accountNormal" : "正常",
+        "accountPasswordError" : "密码错误",
+        "accountAbnormal" : "帐号异常",
+        "accountDisabled" : "帐号禁用",
+        "accountShare" : "共享帐号",
+        "accountTooManyCode" : "验证码错误"
     },
     "accountAdd":{
         "status":"状态",
@@ -187,6 +221,11 @@
         "openStart":"是否开机启动：",
         "openFailed":"设置开机启动失败！注册表无法修改或者操作系统不支持。",
         "useCode":"自动验证："
+    },
+
+    "code":{
+        "picture":" 图片： ",
+        "code":" 验证码： "
     },
 
     "template":{
